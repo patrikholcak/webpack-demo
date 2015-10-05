@@ -1,9 +1,8 @@
+import React, {Component} from 'react';
 import styles from './StyleVariantB.css';
 
-import React, { Component } from 'react';
 
 export default class StyleVariantB extends Component {
-
   render() {
     return (
       <div className={styles.root}>
@@ -11,5 +10,4 @@ export default class StyleVariantB extends Component {
       </div>
     );
   }
-
 };

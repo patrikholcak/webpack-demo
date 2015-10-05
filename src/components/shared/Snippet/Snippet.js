@@ -1,9 +1,8 @@
+import React, {Component} from 'react';
 import styles from './Snippet.css';
 
-import React, { Component } from 'react';
 
 export default class Snippet extends Component {
-
   render() {
     return (
       <div className={styles.root}>
@@ -14,7 +13,6 @@ export default class Snippet extends Component {
             { this.props.children }
           </div>
         </div>
-
         {
           this.props.files.map(file => (
             <div key={file.name} className={styles.file}>
@@ -23,9 +21,7 @@ export default class Snippet extends Component {
             </div>
           ))
         }
-
       </div>
     );
   }
-
-};
+}

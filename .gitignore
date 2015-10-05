@@ -1,2 +1,10 @@
+# OS directory cache files
+Thumbs.db
+.DS_Store
+
+# npm
 node_modules
+npm-debug.log
+
+# Built sources
 dist
